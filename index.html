@@ -7,7 +7,7 @@
     <title>Landing Page</title>
 </head>
 <body>
-    <header>
+    <header style="display: flex; position: relative; align-items: center; justify-self: center; padding: 0 10%; flex-wrap: wrap;">
         <div id="logo">
             <img src="https://images.pexels.com/photos/15138586/pexels-photo-15138586.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt="logo">
             <h1>CoffeeDrinks</h1>
@@ -19,7 +19,7 @@
                 <li><a href="#"><strong>Contact</strong></a></li>
             </ul>
     </header>
-    <div id="main" style="display: flex; gap:4em">
+    <div id="main" style="display: flex; gap:3em; position:relative;">
         <div class="text">
             <h1>This Website is awesome</h1>
             <p> This website has some subtext that goes her under
@@ -34,42 +34,39 @@
     </div>
     <div class="second" style="display: flex;">
         <h2><strong>Some random information.</strong></h2>
-        <ul>
-            <li class="imgtext">
-                <img src="" alt=""/>
-                this is some subtext under an illustration
-                or image
-            </li>
-            <li class="imgtext">
-                <img src="" alt=""/>
-                this is some subtext under an illustration
-                or image
-            </li>
-            <li class="imgtext">
-                <img src="" alt=""/>
-                this is some subtext under an illustration
-                or image
-            </li>
-            <li class="imgtext">
-                <img src="" alt=""/>
-                this is some subtext under an illustration
-                or image
-            </li>
-        </ul>
+            <div id="block1">
+                <img src="https://www.acouplecooks.com/wp-content/uploads/2020/10/How-to-make-an-Americano-004.jpg" alt=""/>
+                <p>American coffee</p>
+            </div>
+            <div id="block2">
+                <img src="https://okdiario.com/img/2018/03/03/capucino-1.jpg" alt=""/>
+                <p>Capuccino coffee</p>
+            </div>
+            <div id="block3">
+                <img src="https://images.aws.nestle.recipes/original/49babf3c11f5d0d693ff869b532212e1_mocaccino.jpg" alt=""/>
+                <p>Moccaccino coffee</p>
+            </div>
+            <div id="block4">
+                <img src="https://bialetti.pe/wp-content/uploads/2019/03/cafe-expreso.jpg" alt=""/>
+                <p>Expreso coffee</p>
+            </div>
     </div>
-    <div class="third">
-        <p class="quote">
-            <emphasis>Some more random information</emphasis>
-            </br>
-        </p>
-        <p class="author">
-            <strong>-Thor, God of Thunder</strong>
-        </p>
+    <div class="third" style="display: flex;">
+        <div id="quote"> 
+            <p><em>Science may never come up with a better office communication system than the coffee break.</em></p></div>   
+        <div id="author">
+            <p><strong>-Earl Wilson</strong></p>
+        </div>
     </div>
-    <div class="fourth">
-        <h3>Contact us for more information</h3>
-        <p>Sign up fou our proudct by clicling</p>
-        <button class="btn" href="">Sign up</button>
+    <div class="fourth" style="display:flex;">
+        <div class="container">
+            <div class="content">
+                <h3>Contact us for more information</h3>
+                <p>Sign up fou our proudct by clicling</p>
+            </div>
+            <div id="btn">
+                <button href="">Sign up</button></div>
+        </div>
     </div>
     <footer>
         <div class="footer">
